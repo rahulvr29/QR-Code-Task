@@ -4,9 +4,17 @@
 - Dark blue: hsl(218, 44%, 22%)*/
 html{
   font-size: 15px;
+  
 }
 body{
   font-family:'Outfit', sans-serif;
+  background-color: lightgray;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
 }
 img{
@@ -15,12 +23,7 @@ img{
   -o-object-fit: contain;
   object-fit: contain;
 }
-body{
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .card{
   background-color: white;
   padding: 2rem;
@@ -29,10 +32,8 @@ body{
   margin: 1rem;
   width: 24rem;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 0.7s5rem;
+  
 }
 .card-img{
   border-radius: 1rem;
