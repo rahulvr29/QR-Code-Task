@@ -12,4 +12,4 @@ It build out this QR code component and get it looking as close to the design as
 # Deployment
 deploy this project on Github pages/vercel/netlify.
 
-Live URL:
+Live URL: https://github.com/rahulvr29/QR-code-task.git
